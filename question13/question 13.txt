@@ -1,0 +1,38 @@
+Write a C++ menu-driven program to implement infix to postfix and postfix evaluation. Use the singly linked list (SLL) to implement the stack ADT as a header file. Maintain proper boundary conditions and follow good coding practices. The program has the following operations, 
+ 
+1. Get Infix 
+2. Convert Infix 
+3. Evaluate Postfix 
+4. Exit 
+ 
+The Get Infix option gets a valid infix expression and stores it efficiently. 
+The Convert Infix option converts the stored infix expression into a postfix expression. It prints the postfix expression at the end after conversion. 
+The Evaluate Postfix expression calculates and prints the output of the converted infix expression.  
+
+ 
+
+Implement for only arithmetic and assignment operators following the precedence and associativity given in the table below, 
+ OPERATOR                                 TYPE                          ASSOCIATIVITY
+--------------------------------------------------------------------------------------
+( )  [ ]  .  ->                          -                             left-to-right
+++  --  +  -  !  ~  (type)  *  & 
+sizeof                                  Unary Operator                right-to-left
+*  /  %                                  Arithmetic Operator           left-to-right
++  -                                     Arithmetic Operator           left-to-right
+<<  >>                                   Shift Operator                left-to-right
+<  <=  >  >=                             Relational Operator           left-to-right
+==  !=                                   Relational Operator           left-to-right
+&                                        Bitwise AND Operator          left-to-right
+^                                        Bitwise EX-OR Operator        left-to-right
+|                                        Bitwise OR Operator           left-to-right
+&&                                       Logical AND Operator          left-to-right
+||                                       Logical OR Operator           left-to-right
+? :                                      Ternary Conditional Operator  right-to-left
+=  +=  -=  *=  /=  %=  &=  ^= 
+|=  <<=  >>=                            Assignment Operator           right-to-left
+
+
+
+For the "Assignment" Operators, implement only for "=" operator. 
+
+What is the time complexity of each of the operations? (K4) 
